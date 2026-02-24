@@ -5,7 +5,7 @@
 ### 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 getElementById(id)-    আগে থেকেই  রাখা আইডি সহ প্রথম উপাদানটি ফেরত পাঠায়। যেহেতু আইডিগুলি অবশ্যই একরকম হতে হবে,তাই এটি দ্রুততম পদ্ধতি।
 getElementsByClassName(className)-       নির্দিষ্ট ক্লাস(is) সহ সকল উপাদানের একটি লাইভ কালেকশন প্রদান করে। DOM পরিবর্তন হলে কালেকশনটি একা একাই আপডেট হয়।
-querySelector(selector)-  CSS সিলেকTo্ট্রের সাথে মেলে এমন প্রথম এলেমেন্ট ফেরত পাঠায় (যেমন, ".btn", "#main", "div > p")।
+querySelector(selector)-  CSS সিলেক্টরের সাথে মেলে এমন প্রথম এলেমেন্ট ফেরত পাঠায় (যেমন, ".btn", "#main", "div > p")।
 querySelectorAll(selector)-      CSS সিলেক্টরের সাথে মিলে যাওয়া সকল েলিমেন্টের একটি স্ট্যাটিক তালিকা প্রদান করে। DOM-এর পরিবর্তন সিলেকশনের পরে তালিকাকে চেঞ্জ করে না।
 
 
